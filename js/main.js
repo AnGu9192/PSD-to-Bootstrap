@@ -18,6 +18,22 @@ $('.button[filter]').click(function(){
 		var filter = $(this).attr('filter');
 		$('.filter > div[filter='+filter+']').show(300);
 	}
-	
+
 	})
 })
+/* Слайдер */
+$('.multiple-items').slick({
+	 infinite: true,
+	 slidesToShow: 3,
+	 slidesToScroll: 3,
+	 arrows: false,
+	 dots: true,
+	 dotsClass: 'dots-style',
+	 responsive: [{
+			breakpoint: 1025,
+			settings: {
+				 slidesToShow: 2,
+				 slidesToScroll: 2,
+			}
+	 }]
+});
