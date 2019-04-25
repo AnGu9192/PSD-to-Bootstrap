@@ -276,7 +276,6 @@ div[filter]:hover .text{
    font-size: 15px;
    margin-bottom: 30px;
 }
-
 .icons {
    display: flex;
    justify-content: center;
@@ -297,7 +296,6 @@ div[filter]:hover .text{
 .icons a:hover i:nth-child(1) {
    color: #3949ab;
 }
-
 .icons a:hover i:nth-child(2) {
    color: #fff;
 }
